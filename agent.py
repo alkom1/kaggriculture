@@ -1,4 +1,4 @@
-def agent(obs):
+def wheat_loop(obs):
 	player = obs["player"]
 	me = obs["farms"][player]
 	private = obs["private"]
